@@ -197,7 +197,7 @@ def create_app():
         db.session.add(doktor48)
 
         otel1 = Otel(isim="Hotel Su Aqualand", yildiz_sayisi=5,toplam_yildiz = 15, ucret=4243, foto="https://cdnturint.touristica.com.tr/otel-resimleri/v1.00/sunis-hotel-su/375x375/sunis-hotel-genel-(13)_136609.JPG", telno="02422490700", sehir_id=sehir1.id)
-        otel2 = Otel(isim="Ramada Plaza Antalya", yildiz_sayisi=5,toplam_yildiz = 12, ucret=3060, foto="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_360,q_auto,w_360/itemimages/37/71/37711_v8.jpeg", telno="02422491111", sehir_id=sehir1.id)
+        otel2 = Otel(isim="Ramada Plaza Antalya", yildiz_sayisi=5,toplam_yildiz = 12, ucret=3060, foto="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr3e-muecahvYEe2yps0hpN4gfNZO-znDCGSlvVJqPPmXD35kPV1Ra-1O9GKY8L_wFD7k8_-pyTA16o0SFu7kFFkNvaKWkV0L9bOd1eucvxxPRAEifPRibjiMX_7vCgU0w05GXU7g=s1360-w1360-h1020-rw", telno="02422491111", sehir_id=sehir1.id)
         otel3 = Otel(isim="Prenses Sealine Beach Hotel", yildiz_sayisi=3,toplam_yildiz = 24, ucret=547, foto="https://lh3.googleusercontent.com/p/AF1QipOJEZQNC7hKbFNb4LAUZ5ia5LgpgiujJrvo2I3-=s1360-w1360-h1020-rw", telno="05342188422", sehir_id=sehir1.id)
         otel4 = Otel(isim="LemonPark House", yildiz_sayisi=4,toplam_yildiz = 13, ucret=2499, foto="https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9cGhvdG81ODA1NDkzNTI0Nzk0MjkxOTYz_20210525114515.jpg", telno="02422590874", sehir_id=sehir1.id)
         otel5 = Otel(isim="Doubletree By Hilton Hotel", yildiz_sayisi=5,toplam_yildiz = 15, ucret=3420, foto="https://ak-d.tripcdn.com/images/220i1g000001hd0g10182_Z_1100_824_R5_Q70_D.jpg", telno="02129999600", sehir_id=sehir2.id)
