@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block title %}ashko kushko{% endblock %} {% block
+content %}
+ <div class="container">
+  <br />
+  <h2 align="center">Lütfen İşlem yaptırmak İstediğiniz Şehri Seçiniz</h2>
+  <br />
+  <div class="col-md-4" style="margin-left:250px;">
+   <form method="POST" id="select_form">
+    <select name="sehirler" id="sehirler" class="form-control selectpicker" data-live-search="true" >
+     <option value="antalya">Antalya</option>
+     <option value="istanbul">İstanbul</option>
+     <option value="izmir">İzmir</option>
+    </select>
+    <br /><br />
+    <input type="hidden" name="sehir" id="sehir" />
+    <button type="submit" class="btn btn-primary">Seç</button>
+   </form>
+   <br />
+  </div>
+ </div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+%}
+<form method="POST">
+  <h3 align="center">Giriş Yap</h3>
+  <div class="form-group">
+    <label for="sigortano" id="label-sigortano"> Sigorta No </label>
+    <input
+      type="text"
+      class="form-control"
+      id="sigortano"
+      name="sigortano"
+      placeholder="Sigorta Numaranızı Giriniz"
+    />
+  </div>
+  <div class="form-group">
+    <label for="sifre" id="label-sifre"> Şifre </label>
+    <input
+      type="password"
+      class="form-control"
+      id="sifre"
+      name="sifre"
+      placeholder="Sifrenizi Giriniz"
+    />
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Giriş Yap</button>
+</form>
+{% endblock %}

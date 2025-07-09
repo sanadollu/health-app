@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block title %}ashko kushko2{% endblock %} {% block
+    content %}
+     <div class="container">
+      <br />
+      <h2 align="center">Lütfen Yaptırmak İstediğiniz İşlemi Seçiniz</h2>
+      <br />
+      <div class="col-md-4" style="margin-left:250px;">
+       <form method="POST" id="select_form">
+        <select name="islemler" id="islemler" class="form-control selectpicker" data-live-search="true" >
+         <option value="estetik_cerrahi">Estetik Cerrahi</option>
+         <option value="goz_hastaliklari">Goz Hastaliklari</option>
+         <option value="agiz_dis_sagligi">Agiz Dis Sagligi</option>
+         <option value="akupunktur">Akupunktur</option>
+        </select>
+        <br /><br />
+        <input type="hidden" name="islem" id="islem" />
+        <button type="submit" class="btn btn-primary">Seç</button>
+       </form>
+       <br />
+      </div>
+     </div>
+    {% endblock %}

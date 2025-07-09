@@ -1,0 +1,68 @@
+{% extends "base.html" %} {% block title %}Doktorlar Ve Oteller{% endblock %} {% block
+content %} 
+<div class="container">
+    <h1 align="center">⸻ Doktorlarımız ⸻</h3>
+    <div class="row">
+        {% for row in dok %}
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src= {{ row.foto }}>
+                </div>
+                <h3 class="title">{{ row.isim_soyisim }}</h3>
+                <br>
+                <span class="post">Puan: {{ row.oy }}</span>
+                <span class="post">{{ row.hastane }}</span>
+                <span class="post">{{ row.ucret }}₺</span>
+                <span class="post">{{ row.dep }}</span>
+                <ul class="social">
+                    <li><a href={{ row.telno }} class="fa fa-phone"></a></li>
+                </ul>
+                <br>
+                <div class="star">
+                <form action="" method="POST">
+                    <input type="hidden" name="rating[post_id]" value="3">
+                    <button type="submit" name="rating[rating]" value="5 d {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="4 d {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="3 d {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="2 d {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="1 d {{ row.id }}">&#9733;</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <br>
+    <h1 align="center">⸻ Otellerimiz ⸻</h3>
+        <div class="row">
+            {% for row in otel %}
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src= {{ row.foto }}>
+                </div>
+                <h3 class="title">{{ row.isim }}</h3>
+                <br>
+                <span class="post">Puan: {{ row.yildiz_sayisi }}</span>
+                <span class="post">{{ row.ucret }}₺</span>
+                <ul class="social">
+                    <li><a href={{ row.telno }} class="fa fa-phone"></a></li>
+                </ul>
+                <br>
+                <div class="star">
+                <form action="" method="POST">
+                    <button type="submit" name="rating[rating]" value="5 o {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="4 o {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="3 o {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="2 o {{ row.id }}">&#9733;</button>
+                    <button type="submit" name="rating[rating]" value="1 o {{ row.id }}">&#9733;</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        </div>
+        <br><br><br>
+</div>
+{% endblock %}
