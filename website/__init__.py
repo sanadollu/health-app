@@ -24,7 +24,7 @@ def create_app():
 
     with app.app_context():
         admin = Hasta(sigorta_no='admin', isim_soyisim='admin',
-                      sifre=generate_password_hash("1234", method='sha256'))
+                      sifre=generate_password_hash("1234", method='pbkdf2:sha256'))
         db.session.add(admin)
         sehir1 = Sehir(adı='antalya')
         db.session.add(sehir1)
