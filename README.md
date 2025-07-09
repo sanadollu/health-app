@@ -32,4 +32,5 @@ A Flask-based web application that helps users find and rate **doctors** and **h
 You can try the app with the following credentials:
 
 Sigorta No: admin
+
 Şifre: 1234
