@@ -9,7 +9,6 @@ DB_NAME = "database.db"
 
 from .models import Doktor, Hasta, Islem, Sehir, Otel
 def create_app():
-    def create_app():
     app = Flask(__name__, template_folder='../templates', static_folder='../static')
     app.config['SECRET_KEY'] = 'ashko kuhsko'
     app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
