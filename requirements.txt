@@ -1,5 +1,6 @@
 Flask==2.2.5
 Flask-Login==0.6.3
 Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.50
 gunicorn==21.2.0
-python-dotenv==1.0.0  # Optional, only if you use .env file
+
