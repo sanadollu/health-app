@@ -1,4 +1,4 @@
-# 🏥 Medical Tourism Web App
+# Medical Tourism Web App
 
 A Flask-based web application that helps users find and rate **doctors** and **hotels** based on selected **cities** and **medical procedures**. Designed to assist users (patients) in organizing their medical journeys efficiently — perfect for medical tourism!
 
@@ -6,7 +6,7 @@ A Flask-based web application that helps users find and rate **doctors** and **h
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔐 User authentication: Sign up, Login, Logout
 - 🏙️ City-based selection: Antalya, Istanbul, Izmir
@@ -18,7 +18,7 @@ A Flask-based web application that helps users find and rate **doctors** and **h
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Backend**: Python, Flask, Flask-SQLAlchemy, Flask-Login
 - **Database**: SQLite
@@ -27,10 +27,28 @@ A Flask-based web application that helps users find and rate **doctors** and **h
 
 ---
 
-## 🧪 Demo Account
+## Demo Account
 
 You can try the app with the following credentials:
 
 Sigorta No: admin
 
 Şifre: 1234
+
+---
+
+## Requirements
+Flask 2.2.5
+Flask-Login 0.6.3
+Flask-SQLAlchemy 2.5.1
+SQLAlchemy 1.4.50
+gunicorn 21.2.0
+
+
+## Authors
+Sena Ezgi Anadollu 
+
+## About the Project
+
+This project was developed as part of a **Database Management Systems** course. It is solely designed to meet the project requirements and academic objectives. The database consists of fabricated data.  This application is not for real-world deployment. The development was completed in December 2022.
+
