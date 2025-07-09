@@ -45,10 +45,15 @@ Sigorta No: admin
 
 <img width="1675" alt="Screenshot 2025-07-09 at 15 43 57" src="https://github.com/user-attachments/assets/b2e839f4-c99b-4c5d-b7ca-f8b8273298e5" />
 
+<img width="1680" alt="Screenshot 2025-07-09 at 16 18 52" src="https://github.com/user-attachments/assets/da892dd6-0919-4a32-a59a-572cc32968b2" />
+
+<img width="1679" alt="Screenshot 2025-07-09 at 16 18 58" src="https://github.com/user-attachments/assets/cf3857ea-908f-4432-9aa4-a9a2590fb20a" />
+
+
 ## Developers
 Sena Ezgi Anadollu 
 
 ## About the Project
 
-This project was developed as part of a **Database Management Systems** course. It is solely designed to meet the project requirements and academic objectives. The database consists of fabricated data.  This application is not for real-world deployment. The development was completed in December 2022.
+This project was developed as part of a **Database Management Systems** course. The database consists of fabricated data for demo purposes. The development was completed in December 2022.
 
