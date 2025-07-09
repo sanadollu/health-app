@@ -47,7 +47,8 @@ Sigorta No: admin
 
 <img width="1680" alt="Screenshot 2025-07-09 at 16 18 52" src="https://github.com/user-attachments/assets/da892dd6-0919-4a32-a59a-572cc32968b2" />
 
-<img width="1679" alt="Screenshot 2025-07-09 at 16 18 58" src="https://github.com/user-attachments/assets/cf3857ea-908f-4432-9aa4-a9a2590fb20a" />
+<img width="1680" alt="Screenshot 2025-07-09 at 16 20 18" src="https://github.com/user-attachments/assets/78edbe9c-1c13-49c4-8cad-ae1d7e6ada01" />
+
 
 
 ## Developers
